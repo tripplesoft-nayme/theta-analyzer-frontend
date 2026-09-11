@@ -1,0 +1,9 @@
+{
+  "renderingStatus": {
+    "labels": ["Successful load", "Partial load", "Failed to load"],
+    "values": [14, 21, 65],
+    "colors": ["#10B981", "#F59E0B", "#EF4444"],
+    "counts": [338000, 109200, 72800],
+    "totalRendered": 520000
+  }
+}

@@ -1,0 +1,13 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mdkazinaim/lawalx-client-frontend:latest
+    platform: linux/amd64
+    environment:
+      NODE_ENV: development
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"

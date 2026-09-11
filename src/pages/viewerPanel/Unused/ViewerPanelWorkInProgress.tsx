@@ -1,0 +1,9 @@
+const ViewerPanelWorkInProgress = () => {
+  return (
+    <h1 className="w-[80vw] h-[100vh] flex items-center justify-center text-9xl text-[#e8ecf0] uppercase">
+      Work In Progress
+    </h1>
+  );
+};
+
+export default ViewerPanelWorkInProgress;

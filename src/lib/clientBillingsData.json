@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "clientId": "CLI001",
+        "companyName": "Acme Corporation",
+        "companyLogo": "🅰️",
+        "subscriptionPlan": "Business Plus",
+        "planType": "Business",
+        "billingCycle": "Annually",
+        "renewsDate": "25-Jun-2025",
+        "status": "Active",
+        "paymentMethod": "Credit Card"
+    },
+    {
+        "id": "2",
+        "clientId": "CLI002",
+        "companyName": "Global Tech Solutions",
+        "companyLogo": "🌐",
+        "subscriptionPlan": "Enterprise Elite",
+        "planType": "Enterprise",
+        "billingCycle": "Biennially",
+        "renewsDate": "15-Aug-2026",
+        "status": "Suspended",
+        "paymentMethod": "Bank Transfer"
+    },
+    {
+        "id": "3",
+        "clientId": "CLI003",
+        "companyName": "Tech Stark Industries",
+        "companyLogo": "⚡",
+        "subscriptionPlan": "Professional Suite",
+        "planType": "Professional",
+        "billingCycle": "Monthly",
+        "renewsDate": "05-Jul-2025",
+        "status": "Trial",
+        "paymentMethod": "Credit Card"
+    },
+    {
+        "id": "4",
+        "clientId": "CLI004",
+        "companyName": "Next Gen Innovations",
+        "companyLogo": "🚀",
+        "subscriptionPlan": "Business Standard",
+        "planType": "Business",
+        "billingCycle": "Quarterly",
+        "renewsDate": "30-Sep-2025",
+        "status": "Expired",
+        "paymentMethod": "PayPal"
+    },
+    {
+        "id": "5",
+        "clientId": "CLI005",
+        "companyName": "Softvence Ltd",
+        "companyLogo": "💼",
+        "subscriptionPlan": "Starter Pack",
+        "planType": "Starter",
+        "billingCycle": "Monthly",
+        "renewsDate": "12-Jul-2025",
+        "status": "Active",
+        "paymentMethod": "Credit Card"
+    },
+    {
+        "id": "6",
+        "clientId": "CLI006",
+        "companyName": "Data Dynamics",
+        "companyLogo": "📊",
+        "subscriptionPlan": "Enterprise Basic",
+        "planType": "Enterprise",
+        "billingCycle": "Annually",
+        "renewsDate": "01-Jan-2026",
+        "status": "Active",
+        "paymentMethod": "Bank Transfer"
+    },
+    {
+        "id": "7",
+        "clientId": "CLI007",
+        "companyName": "CloudScape Technologies",
+        "companyLogo": "☁️",
+        "subscriptionPlan": "Professional Plus",
+        "planType": "Professional",
+        "billingCycle": "Semi-Annually",
+        "renewsDate": "20-Nov-2025",
+        "status": "Active",
+        "paymentMethod": "Credit Card"
+    },
+    {
+        "id": "8",
+        "clientId": "CLI008",
+        "companyName": "WebWorks Studio",
+        "companyLogo": "💻",
+        "subscriptionPlan": "Starter",
+        "planType": "Starter",
+        "billingCycle": "Monthly",
+        "renewsDate": "03-Jul-2025",
+        "status": "Trial",
+        "paymentMethod": "None"
+    },
+    {
+        "id": "9",
+        "clientId": "CLI009",
+        "companyName": "InnoTech Systems",
+        "companyLogo": "🔬",
+        "subscriptionPlan": "Business Pro",
+        "planType": "Business",
+        "billingCycle": "Annually",
+        "renewsDate": "14-Oct-2025",
+        "status": "Suspended",
+        "paymentMethod": "Credit Card"
+    },
+    {
+        "id": "10",
+        "clientId": "CLI010",
+        "companyName": "SecureNet Solutions",
+        "companyLogo": "🔒",
+        "subscriptionPlan": "Enterprise Security",
+        "planType": "Enterprise",
+        "billingCycle": "Biennially",
+        "renewsDate": "22-Dec-2026",
+        "status": "Active",
+        "paymentMethod": "Bank Transfer"
+    }
+]

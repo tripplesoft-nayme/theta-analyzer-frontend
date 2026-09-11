@@ -1,0 +1,2742 @@
+[
+  {
+    "id": 1,
+    "companyName": "Acme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "Just now",
+    "dashboardUpdates": 24,
+    "alerts": 5,
+    "alertType": "Critical",
+    "storageUsage": 9,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 1",
+      "client": {
+        "company": "Acme Corporation 1",
+        "primaryContact": "Jhon Smith",
+        "email": "john1@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "alertsList": [
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Critical",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "Resolved"
+        },
+        {
+          "alertType": "Integration Error",
+          "priority": "High",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "In Progress"
+        },
+        {
+          "alertType": "Usage Threshold",
+          "priority": "Medium",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "API Rate Limit",
+          "priority": "Low",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Default",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "companyName": "Bcme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "5 mins ago",
+    "dashboardUpdates": 22,
+    "alerts": 3,
+    "alertType": "Warning",
+    "storageUsage": 8,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 2",
+      "client": {
+        "company": "Acme Corporation 2",
+        "primaryContact": "Jhon Smith",
+        "email": "john2@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "alertsList": [
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Critical",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "Resolved"
+        },
+        {
+          "alertType": "Integration Error",
+          "priority": "High",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "In Progress"
+        },
+        {
+          "alertType": "Usage Threshold",
+          "priority": "Medium",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "API Rate Limit",
+          "priority": "Low",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Default",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "companyName": "Ccme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "10 mins ago",
+    "dashboardUpdates": 20,
+    "alerts": 2,
+    "alertType": "Info",
+    "storageUsage": 7,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 3",
+      "client": {
+        "company": "Acme Corporation 3",
+        "primaryContact": "Jhon Smith",
+        "email": "john3@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "companyName": "Dcme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "Just now",
+    "dashboardUpdates": 24,
+    "alerts": 5,
+    "alertType": "Critical",
+    "storageUsage": 9,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 1",
+      "client": {
+        "company": "Acme Corporation 1",
+        "primaryContact": "Jhon Smith",
+        "email": "john1@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "alertsList": [
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Critical",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "Resolved"
+        },
+        {
+          "alertType": "Integration Error",
+          "priority": "High",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "In Progress"
+        },
+        {
+          "alertType": "Usage Threshold",
+          "priority": "Medium",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "API Rate Limit",
+          "priority": "Low",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Default",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "companyName": "Ecme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "5 mins ago",
+    "dashboardUpdates": 22,
+    "alerts": 3,
+    "alertType": "Warning",
+    "storageUsage": 8,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 2",
+      "client": {
+        "company": "Acme Corporation 2",
+        "primaryContact": "Jhon Smith",
+        "email": "john2@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "alertsList": [
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Critical",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "Resolved"
+        },
+        {
+          "alertType": "Integration Error",
+          "priority": "High",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "In Progress"
+        },
+        {
+          "alertType": "Usage Threshold",
+          "priority": "Medium",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "API Rate Limit",
+          "priority": "Low",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Default",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "companyName": "Gcme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "10 mins ago",
+    "dashboardUpdates": 20,
+    "alerts": 2,
+    "alertType": "Info",
+    "storageUsage": 7,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 3",
+      "client": {
+        "company": "Acme Corporation 3",
+        "primaryContact": "Jhon Smith",
+        "email": "john3@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "alertsList": [
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Critical",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "Resolved"
+        },
+        {
+          "alertType": "Integration Error",
+          "priority": "High",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "In Progress"
+        },
+        {
+          "alertType": "Usage Threshold",
+          "priority": "Medium",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "API Rate Limit",
+          "priority": "Low",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Default",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "companyName": "Hcme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "Just now",
+    "dashboardUpdates": 24,
+    "alerts": 5,
+    "alertType": "Critical",
+    "storageUsage": 9,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 1",
+      "client": {
+        "company": "Acme Corporation 1",
+        "primaryContact": "Jhon Smith",
+        "email": "john1@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "alertsList": [
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Critical",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "Resolved"
+        },
+        {
+          "alertType": "Integration Error",
+          "priority": "High",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "In Progress"
+        },
+        {
+          "alertType": "Usage Threshold",
+          "priority": "Medium",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "API Rate Limit",
+          "priority": "Low",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Default",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "companyName": "Icme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "5 mins ago",
+    "dashboardUpdates": 22,
+    "alerts": 3,
+    "alertType": "Warning",
+    "storageUsage": 8,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 2",
+      "client": {
+        "company": "Acme Corporation 2",
+        "primaryContact": "Jhon Smith",
+        "email": "john2@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "alertsList": [
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Critical",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "Resolved"
+        },
+        {
+          "alertType": "Integration Error",
+          "priority": "High",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "In Progress"
+        },
+        {
+          "alertType": "Usage Threshold",
+          "priority": "Medium",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "API Rate Limit",
+          "priority": "Low",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Default",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "companyName": "Fcme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "10 mins ago",
+    "dashboardUpdates": 20,
+    "alerts": 2,
+    "alertType": "Info",
+    "storageUsage": 7,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 3",
+      "client": {
+        "company": "Acme Corporation 3",
+        "primaryContact": "Jhon Smith",
+        "email": "john3@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "alertsList": [
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Critical",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "Resolved"
+        },
+        {
+          "alertType": "Integration Error",
+          "priority": "High",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "In Progress"
+        },
+        {
+          "alertType": "Usage Threshold",
+          "priority": "Medium",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "API Rate Limit",
+          "priority": "Low",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Default",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "companyName": "Acme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "Just now",
+    "dashboardUpdates": 24,
+    "alerts": 5,
+    "alertType": "Critical",
+    "storageUsage": 9,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 1",
+      "client": {
+        "company": "Acme Corporation 1",
+        "primaryContact": "Jhon Smith",
+        "email": "john1@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "alertsList": [
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Critical",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "Resolved"
+        },
+        {
+          "alertType": "Integration Error",
+          "priority": "High",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "In Progress"
+        },
+        {
+          "alertType": "Usage Threshold",
+          "priority": "Medium",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "API Rate Limit",
+          "priority": "Low",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Default",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "companyName": "Acme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "5 mins ago",
+    "dashboardUpdates": 22,
+    "alerts": 3,
+    "alertType": "Warning",
+    "storageUsage": 8,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 2",
+      "client": {
+        "company": "Acme Corporation 2",
+        "primaryContact": "Jhon Smith",
+        "email": "john2@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "alertsList": [
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Critical",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "Resolved"
+        },
+        {
+          "alertType": "Integration Error",
+          "priority": "High",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "In Progress"
+        },
+        {
+          "alertType": "Usage Threshold",
+          "priority": "Medium",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "API Rate Limit",
+          "priority": "Low",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Default",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "companyName": "Acme",
+    "plan": "Business",
+    "status": "Active",
+    "users": "420/600",
+    "lastActive": "10 mins ago",
+    "dashboardUpdates": 20,
+    "alerts": 2,
+    "alertType": "Info",
+    "storageUsage": 7,
+    "storageTotal": 12,
+    "user": {
+      "name": "Lawal 3",
+      "client": {
+        "company": "Acme Corporation 3",
+        "primaryContact": "Jhon Smith",
+        "email": "john3@acmecorp.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "San Francisco, CA",
+        "plan": {
+          "current": "Enterprise",
+          "billingCycle": "Yearly",
+          "nextRenewal": "15 May 2026",
+          "status": "Active"
+        }
+      },
+      "metrics": {
+        "totalUsers": {
+          "current": 420,
+          "total": 600,
+          "percentage": 70
+        },
+        "activePrograms": {
+          "current": 24,
+          "newThisMonth": 3
+        },
+        "criticalAlerts": {
+          "current": 5,
+          "newIn24Hours": 2
+        },
+        "storageUsage": {
+          "current": "11Gb",
+          "total": "12Gb",
+          "percentage": 98
+        }
+      },
+      "planSummary": {
+        "users": {
+          "current": 420,
+          "total": 600
+        },
+        "projects": {
+          "current": 24,
+          "total": 50
+        },
+        "storage": {
+          "current": "5 Gb",
+          "total": "12Gb"
+        },
+        "apiCalls": {
+          "current": "15.2k",
+          "total": "50k"
+        }
+      },
+      "programs": [
+        {
+          "programName": "Sales",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Marketing Funnel",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "IT",
+          "projectName": "Server Health",
+          "usageCount": 1204,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 876,
+          "lastUpdated": "25-Jun-2025"
+        },
+        {
+          "programName": "Marketing",
+          "projectName": "Q3 Sales Performance",
+          "usageCount": 2130,
+          "lastUpdated": "25-Jun-2025"
+        }
+      ],
+      "alertsList": [
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Critical",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "Resolved"
+        },
+        {
+          "alertType": "Integration Error",
+          "priority": "High",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "In Progress"
+        },
+        {
+          "alertType": "Usage Threshold",
+          "priority": "Medium",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "API Rate Limit",
+          "priority": "Low",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        },
+        {
+          "alertType": "Data Entry Error",
+          "priority": "Default",
+          "timeStamp": "25-Jun-2025 19:35:09",
+          "status": "New"
+        }
+      ],
+      "invoices": [
+        {
+          "invoiceId": "INV-2024-001",
+          "date": "20-Jan-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-002",
+          "date": "20-Feb-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-003",
+          "date": "20-Mar-2025",
+          "amount": "$10,000.00",
+          "status": "Paid"
+        },
+        {
+          "invoiceId": "INV-2024-004",
+          "date": "20-Apr-2025",
+          "amount": "$10,000.00",
+          "status": "Unpaid"
+        },
+        {
+          "invoiceId": "INV-2024-005",
+          "date": "20-May-2025",
+          "amount": "$10,000.00",
+          "status": "Pending"
+        }
+      ],
+      "activityLog": [
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Upgraded client 'Innovate Inc.' to Enterprise Plan."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Suspend",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Suspended user 's.carter@innovate.com' due to policy violation."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Updated contact info for client 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Export",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Exported Q2 usage report for 'Innovate Inc.'."
+        },
+        {
+          "timestamp": "25-Jun-2025 19:35:09",
+          "action": "Create",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Added new client 'Innovate Inc.' to the system."
+        },
+        {
+          "timestamp": "24-Jun-2025 18:20:15",
+          "action": "Delete",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Deleted user 'l.smith@innovate.com' from the system."
+        },
+        {
+          "timestamp": "23-Jun-2025 11:15:30",
+          "action": "Login",
+          "performedBy": "s.carter@innovate.com",
+          "details": "User 's.carter@innovate.com' logged in."
+        },
+        {
+          "timestamp": "22-Jun-2025 09:00:00",
+          "action": "Update",
+          "performedBy": "alex.ray@innovate.com",
+          "details": "Updated 'Sales' program configuration."
+        },
+        {
+          "timestamp": "21-Jun-2025 14:45:10",
+          "action": "Export",
+          "performedBy": "m.chen@innovate.com",
+          "details": "Exported client list to CSV."
+        },
+        {
+          "timestamp": "20-Jun-2025 10:20:55",
+          "action": "Create",
+          "performedBy": "j.doe@innovate.com",
+          "details": "Created new project 'Q4 Budget Planning'."
+        },
+        {
+          "timestamp": "19-Jun-2025 17:50:00",
+          "action": "Edit",
+          "performedBy": "s.carter@innovate.com",
+          "details": "Edited 'IT' program access permissions."
+        }
+      ]
+    }
+  }
+]

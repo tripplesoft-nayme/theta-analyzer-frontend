@@ -1,0 +1,12 @@
+{
+  "chartUsages": [
+    { "name": "Column", "value": 95, "color": "#8B5CF6" },
+    { "name": "Doughnut Pie", "value": 80, "color": "#8B5CF6" },
+    { "name": "Bar", "value": 73, "color": "#8B5CF6" },
+    { "name": "Radar", "value": 55, "color": "#8B5CF6" },
+    { "name": "Choropleth map", "value": 51, "color": "#8B5CF6" },
+    { "name": "Area", "value": 37, "color": "#8B5CF6" },
+    { "name": "Heat Map", "value": 27, "color": "#8B5CF6" }
+  ],
+  "totalUsage": 576000
+}

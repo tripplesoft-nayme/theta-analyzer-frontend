@@ -1,0 +1,49 @@
+{
+  "trendingIndustries": [
+    {
+      "id": 1,
+      "icon": "🏠",
+      "name": "Real Estate",
+      "usage": 55,
+      "monthlyComp": 7.8,
+      "trend": "up",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "icon": "🏛️",
+      "name": "Finance",
+      "usage": 55,
+      "monthlyComp": -7.5,
+      "trend": "down",
+      "status": "Reviewing"
+    },
+    {
+      "id": 3,
+      "icon": "🌿",
+      "name": "Renewable energy",
+      "usage": 55,
+      "monthlyComp": 9.6,
+      "trend": "up",
+      "status": "Deprecated"
+    },
+    {
+      "id": 4,
+      "icon": "✈️",
+      "name": "Travel Agency",
+      "usage": 55,
+      "monthlyComp": 7.8,
+      "trend": "up",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "icon": "💄",
+      "name": "Beauty & wellness",
+      "usage": 55,
+      "monthlyComp": 6.5,
+      "trend": "up",
+      "status": "Active"
+    }
+  ]
+}

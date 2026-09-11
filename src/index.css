@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "@fontsource-variable/geist";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-website-color-black: #212a31;
+  --color-website-color-darkGray: #2e3944;
+  --color-website-color-lightGray: #d3d9d4;
+  --color-website-color-green: #124e66;
+  --color-website-color-lightGreen: #748d92;
+  --font-inter: "Inter", sans-serif;
+  --breakpoint-3xl: 120rem;
+  --breakpoint-4xl: 140rem;
+}
+
+.text-primary-text {
+  color: #1D2028;
+}
+
+.dark .text-primary-text {
+  color: var(--foreground);
+}
+
+/* html {
+  scrollbar-gutter: stable;
+} */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    font-family: var(--font-inter);
+    @apply bg-background text-foreground;
+    transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-primary-text;
+  }
+
+  html {
+    @apply font-sans;
+  }
+}
+
+/* Targeted transitions for smoother theme switching */
+.bg-card,
+.bg-sidebar,
+.bg-background,
+.bg-popover,
+.border-border,
+.text-foreground {
+  transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* View Transitions API - High Performance Circle Reveal */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+  display: block;
+}
+
+/* Common animation properties */
+.theme-to-dark::view-transition-new(root),
+.theme-to-light::view-transition-old(root) {
+  will-change: clip-path;
+  animation-duration: 0.7s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-fill-mode: forwards;
+}
+
+/* Expansion Circle: Light -> Dark */
+.theme-to-dark::view-transition-new(root) {
+  animation-name: circle-expand;
+  z-index: 999;
+}
+
+/* Collapse Circle: Dark -> Light */
+.theme-to-light::view-transition-old(root) {
+  animation-name: circle-collapse;
+  z-index: 999;
+}
+
+@keyframes circle-expand {
+  from {
+    clip-path: circle(0% at var(--x) var(--y));
+  }
+
+  to {
+    clip-path: circle(150vmax at var(--x) var(--y));
+  }
+}
+
+@keyframes circle-collapse {
+  from {
+    clip-path: circle(150vmax at var(--x) var(--y));
+  }
+
+  to {
+    clip-path: circle(0% at var(--x) var(--y));
+  }
+}
+
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(58.73% 0.22507 262.76);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: hsl(0 0% 98%);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --radius: 0.625rem;
+  --skeleton-bg: hsl(240 5.9% 90%);
+
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+}
+
+.dark {
+  /* --background: hsl(222 47% 10%); */
+  --background: lch(6.89% 12.23 281.15);
+  --foreground: hsl(210 40% 98%);
+  --card: hsl(222 47% 13%);
+  --card-foreground: hsl(210 40% 98%);
+  --popover: hsl(222 47% 15%);
+  --popover-foreground: hsl(210 40% 98%);
+  --primary: hsl(210, 100%, 50%);
+  --primary-foreground: hsl(222.2 47.4% 11.2%);
+  --secondary: hsl(217.2 32.6% 17.5%);
+  --secondary-foreground: hsl(210 40% 98%);
+  --muted: hsl(217.2 32.6% 17.5%);
+  --muted-foreground: hsl(215 20.2% 65.1%);
+  --accent: hsl(217.2 32.6% 17.5%);
+  --accent-foreground: hsl(210 40% 98%);
+  --destructive: hsl(0 62.8% 30.6%);
+  --destructive-foreground: hsl(210 40% 98%);
+  --border: hsl(217.2 32.6% 22%);
+  --input: hsl(217.2 32.6% 22%);
+  --ring: hsl(212.7 26.8% 83.9%);
+  --skeleton-bg: hsl(217.2 32.6% 20%);
+
+  --sidebar: hsl(222 47% 12%);
+  --sidebar-foreground: hsl(210 40% 98%);
+  --sidebar-primary: hsl(224.3 76.3% 48%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(217.2 32.6% 17.5%);
+  --sidebar-accent-foreground: hsl(210 40% 98%);
+  --sidebar-border: hsl(217.2 32.6% 17.5%);
+  --sidebar-ring: hsl(217.2 91.2% 59.8%);
+}
+
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-skeleton-bg: var(--skeleton-bg);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Design System Tokens */
+  --color-primary-bg: var(--background);
+  --color-secondary-bg: var(--secondary);
+  --color-primary-text: var(--foreground);
+  --color-secondary-text: var(--muted-foreground);
+  --color-muted-text: color-mix(in srgb, var(--muted-foreground), transparent 30%);
+  --color-brand-primary: var(--brand-primary, var(--primary));
+  --color-brand-secondary: var(--brand-secondary, var(--primary));
+  --color-bg-brand-primary: var(--brand-primary, var(--primary));
+  --color-bg-brand-secondary: var(--brand-secondary, var(--primary));
+  --color-success: hsl(142.1 70.6% 45.3%);
+  --color-warning: hsl(47.9 95.8% 51.8%);
+  --color-error: hsl(0 84.2% 60.2%);
+  --font-heading: var(--font-sans);
+  --font-sans: 'Geist Variable', sans-serif;
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* src/index.css or globals.css */
+@layer utilities {
+  .no-date-icon::-webkit-calendar-picker-indicator {
+    display: none;
+    opacity: 0;
+  }
+
+  .no-date-icon {
+    -moz-appearance: textfield;
+  }
+}
+
+/* this is for gannt chart from sheet  */
+.today {
+  background: red;
+}
+
+.toolbar-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.toolbar-btn:hover {
+  background: #e2e8f0;
+}
+
+.toolbar-btn-1 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 2px solid #d4d4d4;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.toolbar-btn-2 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  color: white;
+  background: #1c73e0;
+  border: 2px solid #1c73e0;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.toolbar-btn-1:hover {
+  background: #e2e8f0;
+  border: 2px solid #e2e8f0;
+  cursor: pointer;
+}
+
+.toolbar-btn-2:hover {
+  background: #267eeb;
+  border: 2px solid #267eeb;
+  cursor: pointer;
+}
+
+.delete-col-btn {
+  margin-left: 6px;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.gantt_grid_head_cell {
+  cursor: pointer;
+}
+
+.gantt-search-hit {
+  background: #fde047;
+  padding: 1px 3px;
+  border-radius: 3px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  /* display: none; */
+}
+
+.scrollbar-hide {
+  /* -ms-overflow-style: none;
+  scrollbar-width: none; */
+}
+
+/* ── Global scrollbar — slate-200 theme ── */
+* {
+  /* Firefox */
+  scrollbar-color: #e2e8f0 transparent;
+  scrollbar-width: thin;
+}
+
+/* WebKit (Chrome, Edge, Safari) */
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e2e8f0;
+  /* slate-200 */
+  border-radius: 9999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #cbd5e1;
+  /* slate-300 */
+}
+
+/* Gantt Chart - Horizontal Scrollbar Styles */
+.gantt_container .gantt_grid_scroll,
+.gantt_container .gantt_timeline_scroll {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+
+/* Horizontal scrollbar container */
+.gantt_layout_row[data-row-id="gridScroll"],
+.gantt_layout_row[data-row-id="timelineScroll"] {
+  height: 20px !important;
+  min-height: 20px !important;
+}
+
+/* Make horizontal scrollbars visible */
+.gantt_container .gantt_scrollbar_x {
+  display: block !important;
+  height: 18px !important;
+  min-height: 18px !important;
+  background: #f1f5f9 !important;
+  border-top: 1px solid #e2e8f0 !important;
+}
+
+.gantt_scrollbar_scroller {
+  height: 16px !important;
+  background: #e2e8f0 !important;
+  border-radius: 3px !important;
+}
+
+.gantt_scrollbar_handle {
+  height: 16px !important;
+  min-width: 30px !important;
+  background: #94a3b8 !important;
+  border-radius: 3px !important;
+}
+
+.gantt_scrollbar_handle:hover {
+  background: #64748b !important;
+}
+
+/* Resizer/Drag separator styles */
+.gantt_layout_cell[data-view="resizer"],
+.gantt_layout .gantt_resizer {
+  width: 4px !important;
+  min-width: 4px !important;
+  max-width: 4px !important;
+  background: #e2e8f0 !important;
+  cursor: col-resize !important;
+  transition: background 0.2s ease !important;
+}
+
+.gantt_layout_cell[data-view="resizer"]:hover,
+.gantt_layout .gantt_resizer:hover {
+  background: #3b82f6 !important;
+}
+
+/* Ensure grid and timeline have proper overflow */
+.gantt_grid,
+.gantt_timeline {
+  overflow: hidden !important;
+}
+
+.gantt_grid_data,
+.gantt_task_data {
+  overflow: auto !important;
+}
+
+/* Fix for grid horizontal scroll */
+.gantt_grid_data {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+
+/* Fix for timeline horizontal scroll */
+.gantt_task_data {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+
+.gantt_resizer {
+  background-color: #f1f5f9 !important;
+  cursor: col-resize !important;
+  border-left: 1px solid #e2e8f0 !important;
+  border-right: 1px solid #e2e8f0 !important;
+  width: 6px !important;
+}
+
+.gantt_resizer:hover {
+  background-color: #3b82f6 !important;
+}
+
+/* Dynamic Sidebar Active Item Gradient */
+.bg-sidebar-active-gradient {
+  background: linear-gradient(180deg, var(--brand-primary, #4881FF) 0%, var(--brand-secondary, var(--brand-primary, #0151FFD6)) 100%) !important;
+}
+
+/* Dynamic Button Primary Gradient */
+.bg-btn-primary-gradient {
+  background: linear-gradient(180deg, var(--brand-primary, #4881FF) 0%, var(--brand-secondary, var(--brand-primary, #0151FFD6)) 100%) !important;
+}
+
+.bg-btn-primary-gradient:hover {
+  background: white !important;
+}

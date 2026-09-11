@@ -1,0 +1,10 @@
+{
+  "bounceRateData": [
+    { "month": "Jan", "engaged": 65, "bounced": 35 },
+    { "month": "Feb", "engaged": 75, "bounced": 25 },
+    { "month": "Mar", "engaged": 70, "bounced": 30 },
+    { "month": "Apr", "engaged": 60, "bounced": 40 },
+    { "month": "May", "engaged": 65, "bounced": 35 },
+    { "month": "Jun", "engaged": 80, "bounced": 20 }
+  ]
+}
